@@ -11,8 +11,6 @@ ul.ex {
     text-align: left;
 }
 a::before{
-
-    /* content: "\21d2"; */
     font-weight: bold;
 }
 p::selection {
