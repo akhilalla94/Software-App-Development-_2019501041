@@ -1,0 +1,13 @@
+//inheritance
+h2 {
+
+    color:white;     
+    background-color: green;
+    text-align:center;
+ }
+ h1 {
+      @extend h2;    
+    background-color:blueviolet;
+    border-bottom: 5px solid brown;
+}
+// variables

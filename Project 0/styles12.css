@@ -1,0 +1,11 @@
+h2, h1 {
+  color: white;
+  background-color: green;
+  text-align: center;
+}
+
+h1 {
+  background-color: blueviolet;
+  border-bottom: 5px solid brown;
+}
+/*# sourceMappingURL=styles12.css.map */
