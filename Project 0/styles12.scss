@@ -10,4 +10,29 @@ h2 {
     background-color:blueviolet;
     border-bottom: 5px solid brown;
 }
-// variables
+           // variables
+$large:larger;
+$b:bold;
+p.normal{ 
+  font-size: $large; 
+  font-family: cursive;
+  color:blue; 
+  text-align:top;
+  font-weight:$b;
+}
+p.thick{             
+  font: {              //scss Nesting...
+  size: $large;
+  family: Arial, Helvetica, sans-serif;
+  weight: $b;
+  }
+  color:blue;
+}
+p.thin{
+  font-size: $large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: $b;
+  color:palegreen;
+}
+
+
