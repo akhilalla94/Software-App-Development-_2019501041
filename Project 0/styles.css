@@ -92,3 +92,31 @@ p::selection {
     padding-right: 20px; 
 
 }
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  table {
+    border:2px solid crimson;
+    border-collapse: collapse;
+    width: 30%;
+}
+th, td {
+    border: 1px solid chocolate;
+    padding: 5px;
+    text-align:center;
+}
+th{
+    background-color: lightgray;
+}
